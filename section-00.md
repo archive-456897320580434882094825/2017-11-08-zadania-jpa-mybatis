@@ -23,9 +23,9 @@ git clone https://github.com/vavatech/2017-11-08-zadania-jpa-mybatis.git
 ### 3.
 Potrzebujesz bazy danych Postgres. Masz 3 możliwości:
 * posiadasz albo zainstalujesz ją lokalnie. Jeśli chcesz jej używać to dla bezpieczeństwa powinieneś utworzyć odrębną
-  bazę danych na potrzeby szkolenia - pkt.2a.
-* uruchomisz ją na Dockerze z obrazu oficjalnego wg. instrukcji w pkcie 2b.
-* [zalecane] uruchomisz ją na Dockerze z obrazu dedykowanego przygotowanego wg. instrukcji w pkcie 2c.
+  bazę danych na potrzeby szkolenia - pkt.3a.
+* uruchomisz ją na Dockerze z obrazu oficjalnego wg. instrukcji w pkcie 3b.
+* [zalecane] uruchomisz ją na Dockerze z obrazu dedykowanego przygotowanego wg. instrukcji w pkcie 3c.
 
 
 ### 3a.
@@ -46,7 +46,7 @@ docker run --rm -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=HASLO postgres
 ```
 * user: postgres
 * pass: HASLO
-Możesz, ale nie musisz, utworzyć odrębny schemat na potrzeby szkolenia - pkt. 2a.
+Możesz, ale nie musisz, utworzyć odrębny schemat na potrzeby szkolenia - pkt. 3a.
 
 
 ### 3c.
