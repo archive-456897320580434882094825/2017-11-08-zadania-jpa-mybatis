@@ -12,6 +12,15 @@
 
 
 ### 2.
+* Ściągnij szablon projektu mavenowego z repozytorium spod adresu: https://github.com/vavatech/2017-11-08-zadania-jpa-mybatis
+
+Pobierz za pomocą swojego IDE lub też za pomocą innego klienta i następnie zaimportuj do IDE.
+```sh
+git clone https://github.com/vavatech/2017-11-08-zadania-jpa-mybatis.git
+```
+
+
+### 3.
 Potrzebujesz bazy danych Postgres. Masz 3 możliwości:
 * posiadasz albo zainstalujesz ją lokalnie. Jeśli chcesz jej używać to dla bezpieczeństwa powinieneś utworzyć odrębną
   bazę danych na potrzeby szkolenia - pkt.2a.
@@ -19,7 +28,7 @@ Potrzebujesz bazy danych Postgres. Masz 3 możliwości:
 * [zalecane] uruchomisz ją na Dockerze z obrazu dedykowanego przygotowanego wg. instrukcji w pkcie 2c.
 
 
-### 2a.
+### 3a.
 Ewentualne stworzenie osobnej bazy i użytkownika na potrzeby szkolenia:
 
 (po zalogowaniu jako użytkownik `postgres`)
@@ -30,7 +39,7 @@ GRANT ALL PRIVILEGES ON DATABASE szkolenie TO szkolenie;
 ```
 
 
-### 2b.
+### 3b.
 Uruchomienie Postgresa na Dockerze:
 ```bash
 docker run --rm -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=HASLO postgres:latest
@@ -40,6 +49,6 @@ docker run --rm -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=HASLO postgres
 Możesz, ale nie musisz, utworzyć odrębny schemat na potrzeby szkolenia - pkt. 2a.
 
 
-### 2c.
+### 3c.
 W repo na potrzeby zadania na gałęzi `master` w katalogu `template-postgres` znajduje się obraz, który po zbudowaniu
 dostarczy bazy danych. Instrukcje szczegółowe w pliku README.md we wskazanym katalogu.
