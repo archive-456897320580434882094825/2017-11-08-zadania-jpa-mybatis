@@ -15,7 +15,8 @@
 Potrzebujesz bazy danych Postgres. Masz 3 możliwości:
 * posiadasz albo zainstalujesz ją lokalnie. Jeśli chcesz jej używać to dla bezpieczeństwa powinieneś utworzyć odrębną
   bazę danych na potrzeby szkolenia - pkt.2a.
-* uruchomisz ją na Dockerze wg. instrukcji w pkcie 2b.
+* uruchomisz ją na Dockerze z obrazu oficjalnego wg. instrukcji w pkcie 2b.
+* [zalecane] uruchomisz ją na Dockerze z obrazu dedykowanego przygotowanego wg. instrukcji w pkcie 2c.
 
 
 ### 2a.
@@ -37,3 +38,8 @@ docker run --rm -p 5432:5432 --name postgres -e POSTGRES_PASSWORD=HASLO postgres
 * user: postgres
 * pass: HASLO
 Możesz, ale nie musisz, utworzyć odrębny schemat na potrzeby szkolenia - pkt. 2a.
+
+
+### 2c.
+W repo na potrzeby zadania na gałęzi `master` w katalogu `template-postgres` znajduje się obraz, który po zbudowaniu
+dostarczy bazy danych. Instrukcje szczegółowe w pliku README.md we wskazanym katalogu.
