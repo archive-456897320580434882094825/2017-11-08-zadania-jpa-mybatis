@@ -49,6 +49,12 @@ private String description
 
 ### 1.4
 1. Stwórz plik `persistence.xml` opisujący jednostkę trwałości i umieść go w katalogu `META-INF`.
+   Wykorzystaj dowolną bazę danych - np. H2 lub Postgres.
 1. Utwórz przykładową klasę uruchamialną - może to być klasa z metodą statyczną `main(String...)` lub test JUnit.
 1. Dla każdej z encji utwórz po 2 egzeplarzach, każdemu ustaw wartości w polach, następnie utrwal i sprawdź w JPA czy się to odbyło.
 1. Sprawdź czy w bazie danych są utrwalone dane.
+
+
+### 1.5 Dodatkowe
+1. Wykorzystaj obie bazy danych - zarówno H2 jak i Postgres. Wykonaj testy na najpierw na jednej a potem na drugiej.
+1. Sprawdź czy baza danych Postgres zachowała dane po zakończeniu testu.
