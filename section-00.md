@@ -51,4 +51,4 @@ Możesz, ale nie musisz, utworzyć odrębny schemat na potrzeby szkolenia - pkt.
 
 ### 3c.
 W repo na potrzeby zadania na gałęzi `master` w katalogu `template-postgres` znajduje się obraz, który po zbudowaniu
-dostarczy bazy danych. Instrukcje szczegółowe w pliku README.md we wskazanym katalogu.
+dostarczy bazy danych. Instrukcje szczegółowe w pliku `README.md` we wskazanym katalogu.
