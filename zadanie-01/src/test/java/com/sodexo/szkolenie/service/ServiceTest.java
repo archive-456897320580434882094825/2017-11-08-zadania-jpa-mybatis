@@ -26,6 +26,16 @@ public class ServiceTest {
             em.persist(customer1);
             Assertions.assertThat(customer1.getId()).isNotNull();
             Assertions.assertThat(em.find(Customer.class, (long)customer1.getId())).isNotNull();
+            Customer customer2 = new Customer();
+            customer2.setFirstName("Krzysztof");
+            customer2.setLastName("Kowalski");
+            em.persist(customer2);
+            Assertions.assertThat(em.find(Customer.class, (long)customer2.getId())).isNotNull();
+            Customer customer3 = new Customer();
+            customer3.setFirstName("Marian");
+            customer3.setLastName("Janik");
+            em.persist(customer3);
+            Assertions.assertThat(em.find(Customer.class, (long)customer3.getId())).isNotNull();
             em.flush();
             transaction.commit();
         } catch (PersistenceException e) {
