@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>JPA i MyBatis :: Zadania</title>
+        <meta name="description" content="Wprowadzenie do technologii">
+        <meta name="author" content="Michał Kordulewski">
+
+        <link rel="stylesheet" href="css/import/black.css">
+        <link rel="stylesheet" href="css/import/beige.css"     title="Beige">
+        <link rel="stylesheet" href="css/import/black.css"     title="Black">
+        <link rel="stylesheet" href="css/import/blood.css"     title="Blood">
+        <link rel="stylesheet" href="css/import/league.css"    title="League">
+        <link rel="stylesheet" href="css/import/moon.css"      title="Moon">
+        <link rel="stylesheet" href="css/import/night.css"     title="Night">
+        <link rel="stylesheet" href="css/import/serif.css"     title="Serif">
+        <link rel="stylesheet" href="css/import/simple.css"    title="Simple">
+        <link rel="stylesheet" href="css/import/sky.css"       title="Sky">
+        <link rel="stylesheet" href="css/import/solarized.css" title="Solarized">
+        <link rel="stylesheet" href="css/import/white.css"     title="White">
+
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h1>JPA i MyBatis</h1>
+					<h4 class="blue">Zadania</h4>
+					<br /><br />
+					<img src="resources/logo/vavatech.png" height="100" />
+					<p><span style="font-size:16px">Michał Kordulewski</span></p>
+				</section>
+
+                <section>
+                    <section data-markdown="section-00.md"
+                             data-separator="^\n\n"
+                             data-separator-vertical="^\n\n\n"
+                             data-separator-notes="<!-- aside -->"
+                             data-charset="utf-8">
+                    </section>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+                width: '100%',
+                height: '100%',
+                slideNumber: 'c/t',
+                mouseWheel: false,
+                showNotes: false,
+                history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
