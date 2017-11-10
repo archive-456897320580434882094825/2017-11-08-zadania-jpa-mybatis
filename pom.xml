@@ -19,6 +19,7 @@
 
 	<modules>
 		<module>template-jpa-jse</module>
+		<module>zadanie-01</module>
 	</modules>
 
 </project>
