@@ -19,6 +19,8 @@
 
 	<modules>
 		<module>template-jpa-jse</module>
+		<module>template-jpa-openejb</module>
+		<module>template-jpa-springboot</module>
 		<module>zadanie-01</module>
 	</modules>
 
