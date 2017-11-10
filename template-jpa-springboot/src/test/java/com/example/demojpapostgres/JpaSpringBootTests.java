@@ -26,7 +26,6 @@ public class JpaSpringBootTests {
 	EntityManager em;
 
 	@Test
-	@javax.transaction.Transactional
 	public void testPostgres() {
 		// prepare
 		Person u1 = new Person();
