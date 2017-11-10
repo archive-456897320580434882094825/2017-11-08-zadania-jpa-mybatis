@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:USERS;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false
+    username: sa
+    password:
+    platform: h2
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+    hibernate:
+      ddl-auto: create
+      # create      = drop a potem create
+      # create-drop = drop, create & drop
