@@ -13,7 +13,7 @@ public class ServiceTest {
 
     @Test
     public void testUtrwalania() {
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("postgres");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("h2");
         EntityManager em = entityManagerFactory.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
