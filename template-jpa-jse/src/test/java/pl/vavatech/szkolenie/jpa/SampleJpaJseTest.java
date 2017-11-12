@@ -1,5 +1,6 @@
-package com.example.demojpapostgres;
+package pl.vavatech.szkolenie.jpa;
 
+import pl.vavatech.szkolenie.jpa.model.SampleEntity;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 
@@ -7,7 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class JpaJseTests {
+public class SampleJpaJseTest {
 
 	private EntityManager em() {
 		return em("h2");

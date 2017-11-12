@@ -1,4 +1,4 @@
-package com.example.demojpapostgres;
+package pl.vavatech.szkolenie.jpa.model;
 
 import lombok.*;
 
