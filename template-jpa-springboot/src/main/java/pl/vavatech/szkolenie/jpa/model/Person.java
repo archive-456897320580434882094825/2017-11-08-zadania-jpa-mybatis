@@ -1,4 +1,4 @@
-package com.example.demojpapostgres;
+package pl.vavatech.szkolenie.jpa.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
