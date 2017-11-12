@@ -15,7 +15,7 @@ import javax.persistence.PersistenceContextType;
 @SpringBootTest
 @org.springframework.test.annotation.Rollback(false)
 @javax.transaction.Transactional
-@ActiveProfiles("h2")
+//@ActiveProfiles("h2")
 //@ActiveProfiles("postgres")
 public class SampleJpaSpringBootTest {
 

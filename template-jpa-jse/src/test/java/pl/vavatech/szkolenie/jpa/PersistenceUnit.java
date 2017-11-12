@@ -5,7 +5,7 @@ package pl.vavatech.szkolenie.jpa;
  */
 public enum PersistenceUnit {
 
-    DEFAULT("h2"), POSTGRES("postgres"), H2("h2");
+    DEFAULT("default"), POSTGRES("postgres"), H2("h2");
 
     private String name;
 

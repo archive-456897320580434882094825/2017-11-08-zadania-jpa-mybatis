@@ -12,7 +12,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 @RunWith(EJBContainerRunner.class)
-@PropertyFile(value = "openejb-h2.properties")
+@PropertyFile(value = "openejb-default.properties")
+//@PropertyFile(value = "openejb-h2.properties")
 //@PropertyFile(value = "openejb-postgres.properties")
 public class SampleJpaOpenJPaTest {
 
