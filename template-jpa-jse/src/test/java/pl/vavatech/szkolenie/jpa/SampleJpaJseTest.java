@@ -11,11 +11,11 @@ import javax.persistence.Persistence;
 public class SampleJpaJseTest {
 
 	private EntityManager em() {
-		return em("h2");
+		return em(PersistenceUnit.DEFAULT);
 	}
 
-	private EntityManager em(String persistenceUnit) {
-		EntityManagerFactory entityManagerFactory =  Persistence.createEntityManagerFactory(persistenceUnit);
+	private EntityManager em(PersistenceUnit persistenceUnit) {
+		EntityManagerFactory entityManagerFactory =  Persistence.createEntityManagerFactory(persistenceUnit.getName());
 		EntityManager em = entityManagerFactory.createEntityManager();
 		return em;
 	}
