@@ -1,4 +1,4 @@
-package com.eduneo.model;
+package pl.vavatech.szkolenie.jpa.model;
 
 import lombok.*;
 

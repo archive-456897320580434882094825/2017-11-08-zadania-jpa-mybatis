@@ -1,12 +1,12 @@
-package com.eduneo.dao;
+package pl.vavatech.szkolenie.jpa;
 
-import com.eduneo.model.Lang;
 import org.apache.openejb.junit.jee.EJBContainerRunner;
 import org.apache.openejb.junit.jee.config.PropertyFile;
 import org.apache.openejb.junit.jee.transaction.Transaction;
 import org.assertj.core.api.StrictAssertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import pl.vavatech.szkolenie.jpa.model.Lang;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -14,7 +14,7 @@ import javax.persistence.PersistenceContext;
 @RunWith(EJBContainerRunner.class)
 @PropertyFile(value = "openejb-h2.properties")
 //@PropertyFile(value = "openejb-postgres.properties")
-public class JpaOpenJPaTests {
+public class SampleJpaOpenJPaTest {
 
     @PersistenceContext
     private EntityManager em;
